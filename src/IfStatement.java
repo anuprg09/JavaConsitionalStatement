@@ -38,10 +38,32 @@ public class IfStatement {
 		
 		//Syntax
 		/*
-		 if(conditional Statement) {
+		if(conditional Statement) {
+			//business Logic
+		}
+		else if(conditional Statement) {
 			//business Logic
 		}
 		*/
+		// <90% : pass
+		// 80% : fail
+		
+		
+		
+		
+		// 10 and 14
+		//==
+		//>
+		//<
+		
+		// do a addition and perform comparison with 15
+		//10+14
+		//==
+		//>
+		//<
+		
+		
+		
 		//case 1:
 		//if first num is > Sec num ,then we have to substract sec from First
 
@@ -52,7 +74,7 @@ public class IfStatement {
 		
 		//case 2:
 		//if first num is < Sec num ,then we have to substract First from Sec
-		if(Firstvalue < Secvalue)
+		else if(Firstvalue < Secvalue)
 		{
 			int result = Secvalue-Firstvalue;
 			System.out.println("First number is less than Sec num and Result is : " + result);
@@ -61,7 +83,7 @@ public class IfStatement {
 		//case 3:
 		//if first num is EQUAL to Sec num ,then we have to add first and Sec num
 		//== : equality operator
-		if(Secvalue==Firstvalue)
+		else
 		{
 			int result = Firstvalue + Secvalue;
 			System.out.println("First number is equal to Sec num and Result of addition is : " + result);
